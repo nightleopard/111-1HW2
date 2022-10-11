@@ -1,25 +1,12 @@
-﻿# 第2次作業-作業-HW2
->
->學號：109111117 
-><br />
->姓名：潘耿劭 
-><br />
->作業撰寫時間：240 (mins，包含程式撰寫時間)
-><br />
->最後撰寫文件日期：2022/10/11
->
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
-本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
-- [x]說明內容
-- [x]個人認為完成作業須具備觀念
-
-## 說明程式與內容
-
-建立一個一維陣列表示炸彈的位置指定int名稱為ia_MIndex，在建立一個二維陣列當作格子的
-範圍指定char名稱為ca_map，利用for迴圈的概念在二維陣列除了炸彈以外以0表示，之後判定
-只要在炸彈周圍的數值都+1，之後輸出踩地雷圖和炸彈位置與周圍數值。
-
-```csharp
+namespace _111_1HW2
+{
     public partial class Bomb : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
@@ -106,31 +93,3 @@
         }
     }
 }
-```
-
-若要於內文中標示部分.aspx檔，則使用以下標籤` ```html 程式碼 ``` `，
-下段程式碼則為使用後結果：
-
-```html
-<%@ Page Language="C#" AutoEventWireup="true" ...>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" ...>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
-```
-
-
-## 個人認為完成作業須具備觀念
-
-寫出這個程式需要具備足夠的程式語言能力，沒有一點基礎的話就會用到大量時間要作答此題目，需要多練習題目、觀看影片、詢求幫助。
